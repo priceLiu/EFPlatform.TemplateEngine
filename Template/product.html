@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>
+		<!--!Title-->
+		Product: {ProductName}<!--Title!--> Of Northwind</title>
+	<link href="Style.css" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+#divProduct {
+}
+#divProduct dl {
+	color: #003399;
+	margin: 0;
+	line-height: 20px;
+	clear: right;
+}
+#divProduct dt {
+	text-align: right;
+	width: 150px;
+	font-weight: bold;
+	float: left;
+	clear: left;
+}
+#divProduct dd {
+	text-align: left;
+	text-indent: 5px;
+}
+</style>
+</head>
+<body>
+	<div id="divMenu">
+		<a href="Category1.html">Categories</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="Product1.html">Products</a></div>
+	<hr id="hrLine" />
+	<div id="divProduct">
+		<!--!Product-->
+		<dl>
+			<dt>Product ID:</dt>
+			<dd>
+				{ProductID}</dd>
+			<dt>Product Name:</dt>
+			<dd>
+				{ProductName}</dd>
+			<dt>Supplier:</dt>
+			<dd>
+				{CompanyName,5}</dd>
+			<dt>Category:</dt>
+			<dd>
+				{CategoryName}</dd>
+			<dt>Quantity Per Unit:</dt>
+			<dd>
+				{QuantityPerUnit}</dd>
+			<dt>Unit Price:</dt>
+			<dd>
+				{UnitPrice,"${0:F2}"}</dd>
+			<dt>Units In Stock:</dt>
+			<dd>
+				{UnitsInStock}</dd>
+			<dt>Units On Order:</dt>
+			<dd>
+				{UnitsOnOrder}</dd>
+			<dt>Reorder Level:</dt>
+			<dd>
+				{ReorderLevel}</dd>
+		</dl>
+		<!--Product!-->
+	</div>
+	<div id="divNavigator">
+		<!--!Navigator-->
+		<ul>
+			<li>{CurrentPage} / {PageCount}&nbsp;&nbsp;</li>
+			<li><a href="Product{FirstPage}.html">&lt;&lt;</a>&nbsp;&nbsp;</li>
+			<li><a href="Product{PreviousPage}.html">&lt;-</a>&nbsp;&nbsp;</li>
+			<li><a href="Product{NextPage}.html">-&gt;</a>&nbsp;&nbsp;</li>
+			<li><a href="Product{LastPage}.html">&gt;&gt;</a>&nbsp;&nbsp;</li>
+		</ul>
+		<!--Navigator!-->
+	</div>
+</body>
+</html>

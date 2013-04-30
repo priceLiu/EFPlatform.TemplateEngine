@@ -1,0 +1,9 @@
+﻿CodeGenerator 的特点:
+1. 标记简结实用, 所有网页美工都能在一分钟内掌握. 而且不与HTML标准冲突, 模板页可用任何WYSIWYG工具编辑, 和编辑普通HTML网完全相同.
+2. 标记只与表示层相关, 不包括任何业务逻辑, 丝毫不影响你应用多层结构.
+3. 标记到后台被解析成了生成器对象, 完全面向对象, 不像绝大多数生成器要死嗑字符串.
+4. 生成器对象使用DataSource属性取得数据, DataSource可以为  简单值类型(如 int, DateTIme), 也可以为简单数组(如 decimal[], string[]), 
+还可以为ADO.NET数据集(如DataTable), 甚至单个对象实体或对象集合或列表(如 SomeClassCollection, List<SomeClass>), 
+所有数据源类型通吃! 哈哈, 比ASP.NET带的数据控件支持的类型还多.
+5. 标记的Name直接与数据源的列名ColumnName或属性名PropertyName, 好处不言而喻了吧.
+6. 说到这里好了, 留一手先. 呵呵

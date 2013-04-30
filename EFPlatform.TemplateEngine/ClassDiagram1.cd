@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EFPlatform.TemplateEngine.Field" BaseTypeListCollapsed="true">
+    <Position X="7" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAEAAAAAAAAEAgCARAIAgFACAAAQAgAAAAAAA=</HashCode>
+      <FileName>Field.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EFPlatform.TemplateEngine.Generator">
+    <Position X="9" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAIAEAAACBAAAAAIAAAACAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Generator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EFPlatform.TemplateEngine.Helper">
+    <Position X="4" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAADAAMAAAABABAAAIAAAAAAAAAAAAAAAAAQACAA=</HashCode>
+      <FileName>Helper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EFPlatform.TemplateEngine.Pager">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAEAACADAAEAAAAAAABACkgACAFI=</HashCode>
+      <FileName>Pager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EFPlatform.TemplateEngine.Region" BaseTypeListCollapsed="true">
+    <Position X="3.75" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEEAAAgBAAAIgIAQAIAAFAAAAAQAgAAAAgAA=</HashCode>
+      <FileName>Region.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EFPlatform.TemplateEngine.SegmentCollection" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAABGQCAAABAQAAAAAAAAEAAAAAABSIAA=</HashCode>
+      <FileName>SegmentCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EFPlatform.TemplateEngine.TemplateParser">
+    <Position X="11.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAEAIAAAAAIAkAAAAQA=</HashCode>
+      <FileName>TemplateParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EFPlatform.TemplateEngine.Segment" BaseTypeListCollapsed="true">
+    <Position X="7" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAgAAQAIAAFAAAAAQAgAAAAAAA=</HashCode>
+      <FileName>Segment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="EFPlatform.TemplateEngine.ISegment">
+    <Position X="9.25" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAgAAQAAAAAAAAAAQAgAAAAAAA=</HashCode>
+      <FileName>ISegment.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="EFPlatform.TemplateEngine.SegmentType">
+    <Position X="11.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>ISegment.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

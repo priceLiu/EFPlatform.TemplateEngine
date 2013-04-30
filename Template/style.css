@@ -1,0 +1,47 @@
+body {
+	font-family: Verdana;
+	font-size: 12px;
+}
+ul {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+li {
+	text-indent: 0px;
+}
+dl {
+	margin: 0px;
+}
+dt {
+	margin: 0px;
+}
+dd {
+	margin: 0px;
+}
+#divMenu {
+	font-family: "Arial Black";
+	font-size: 16px;
+}
+#hrLine
+{
+	border: 1px solid #333333;
+	height: 1px;
+}
+#divNavigator {
+	margin-top: 10px;
+}
+#divNavigator ul {
+}
+#divNavigator li {
+	float: left;
+}
+#divNavigator a {
+	color: #FFFFFF;
+	background-color: #666666;
+	padding: 2px;
+	border: 1px solid #000000;
+	font-family: monospace;
+	text-decoration: none;
+	line-height: 20px;
+}
